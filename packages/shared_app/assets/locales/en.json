@@ -1,0 +1,29 @@
+{
+  "language_name": "English",
+
+  "unknown_server_error": "Unknown server error",
+  "network_error": "Server is not available",
+  "unknown_error": "Unknown error",
+
+  "email": "Email",
+  "password": "Password",
+  "authorization": "Authorization",
+
+  "sign_in": "Sign In",
+  "sign_out": "Sign Out",
+
+  "fill_all_fields_error": "Please fill all the fields.",
+  "link_type_video": "Video",
+  "link_type_startup": "Startup",
+  "link_type_utility": "Utility",
+  "link_type_site": "Site",
+  "link_type_article": "Article",
+  "link_type_cases": "Case",
+
+  "link_type_video_multiple": "Videos",
+  "link_type_startup_multiple": "Startups",
+  "link_type_utility_multiple": "Utilities",
+  "link_type_site_multiple": "Sites",
+  "link_type_article_multiple": "Articles",
+  "link_type_cases_multiple": "Cases"
+}

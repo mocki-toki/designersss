@@ -1,0 +1,47 @@
+{
+  "import domain main_app": {
+    "prefix": "import domain main_app",
+    "body": ["import 'package:main_app/domain.dart';"],
+    "description": "import domain main_app"
+  },
+  "import infrastructure main_app": {
+    "prefix": "import infrastructure main_app",
+    "body": ["import 'package:main_app/infrastructure.dart';"],
+    "description": "import infrastructure main_app"
+  },
+  "import presentation main_app": {
+    "prefix": "import presentation main_app",
+    "body": ["import 'package:main_app/presentation.dart';"],
+    "description": "import presentation main_app"
+  },
+  "import domain admin_app": {
+    "prefix": "import domain admin_app",
+    "body": ["import 'package:admin_app/domain.dart';"],
+    "description": "import domain admin_app"
+  },
+  "import infrastructure admin_app": {
+    "prefix": "import infrastructure admin_app",
+    "body": ["import 'package:admin_app/infrastructure.dart';"],
+    "description": "import infrastructure admin_app"
+  },
+  "import presentation admin_app": {
+    "prefix": "import presentation admin_app",
+    "body": ["import 'package:admin_app/presentation.dart';"],
+    "description": "import presentation admin_app"
+  },
+  "import domain common": {
+    "prefix": "import domain common",
+    "body": ["import 'package:common/domain.dart';"],
+    "description": "import domain common"
+  },
+  "import infrastructure common": {
+    "prefix": "import infrastructure common",
+    "body": ["import 'package:common/infrastructure.dart';"],
+    "description": "import infrastructure common"
+  },
+  "import presentation common": {
+    "prefix": "import presentation common",
+    "body": ["import 'package:common/presentation.dart';"],
+    "description": "import presentation common"
+  }
+}

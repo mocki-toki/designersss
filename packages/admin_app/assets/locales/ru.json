@@ -1,0 +1,32 @@
+{
+  "invalid_credentials_failure": "Неправильная электронная почта или пароль.",
+
+  "welcome_message": "Добро пожаловать, {name}!",
+
+  "date_already_exists_error": "Эта дата уже существует.",
+
+  "create_dialog": "Создать",
+  "confirm_dialog": "Подтвердить",
+  "delete_dialog": "Удалить",
+  "cancel_dialog": "Отменить",
+
+  "delete_date_message": "Вы уверены, что хотите удалить эту дату?",
+
+  "create_link_title": "Создать ссылку",
+  "change_link_title": "Изменить ссылку",
+
+  "link_url_hint": "Введите ссылку",
+
+  "change_type_title": "Изменить тип",
+
+  "new_date_button": "Новая дата",
+  "create_link_button": "Новая ссылка",
+  "upload_file_button": "Загрузить файл",
+  "delete_date_button": "Удалить дату",
+  "save_changes_button": "Сохранить изменения",
+  "discard_changes_button": "Отменить изменения",
+
+  "no_dates_message": "Нет дат для отображения.",
+
+  "change_image_title": "Изменить изображение"
+}

@@ -1,0 +1,30 @@
+{
+  "language_name": "Русский",
+
+  "unknown_server_error": "Неизвестная ошибка сервера",
+  "network_error": "Сервер недоступен",
+  "unknown_error": "Неизвестная ошибка",
+
+  "email": "Электронная почта",
+  "password": "Пароль",
+  "authorization": "Авторизация",
+
+  "sign_in": "Войти",
+  "sign_out": "Выйти",
+
+  "fill_all_fields_error": "Пожалуйста, заполните все поля.",
+
+  "link_type_video": "Видео",
+  "link_type_startup": "Стартап",
+  "link_type_utility": "Инструмент",
+  "link_type_site": "Сайт",
+  "link_type_article": "Статья",
+  "link_type_cases": "Кейс",
+
+  "link_type_video_multiple": "Видео",
+  "link_type_startup_multiple": "Стартапы",
+  "link_type_utility_multiple": "Инструменты",
+  "link_type_site_multiple": "Сайты",
+  "link_type_article_multiple": "Статьи",
+  "link_type_cases_multiple": "Кейсы"
+}

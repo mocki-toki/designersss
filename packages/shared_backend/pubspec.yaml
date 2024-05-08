@@ -1,0 +1,13 @@
+name: shared_backend
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  shared:
+  dart_frog: ^1.0.0
+  postgres: ^3.1.1
+  shelf_cors_headers: ^0.1.5
+  shelf_multipart: ^1.0.0

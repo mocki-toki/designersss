@@ -1,0 +1,40 @@
+name: shared_app
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  auto_route: ^7.8.4
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  intl: ^0.18.1
+  dio: ^5.4.1
+  simple_animations: ^5.0.2
+  timeago_flutter: ^3.6.0
+  hive: ^2.2.3
+  path_provider: ^2.1.1
+  provider: ^6.1.1
+  logging: ^1.2.0
+  shared:
+  firebase_storage: ^11.7.2
+  firebase_core: ^2.30.0
+  dino: ^1.0.0-pre.1
+  font_awesome_flutter: ^10.7.0
+  cross_file: ^0.3.4+1
+
+dev_dependencies:
+  auto_route_generator: ^7.3.2
+  build_runner: ^2.4.7
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+  uses-material-design: true

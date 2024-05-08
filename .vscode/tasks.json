@@ -1,0 +1,127 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "pub get",
+      "command": "flutter pub get && dart run melos bootstrap",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+
+    {
+      "label": "dart fix",
+      "command": "dart fix . --apply",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate full prompt",
+      "command": "dart run melos run utils:generate_full_prompt",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate syntax prompt",
+      "command": "dart run melos run utils:generate_syntax_prompt",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate indexes",
+      "command": "dart run melos run utils:generate_indexes",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate localizations",
+      "command": "dart run melos run utils:generate_localizations",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Pub upgrade major versions",
+      "command": "dart run melos run pub:major",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate code",
+      "command": "dart run melos run generate",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Clean code",
+      "command": "dart run melos run clean",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Fresh project (clean, bootstrap, generate)",
+      "command": "dart run melos run fresh",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run analyzer",
+      "command": "flutter analyze . --no-pub",
+      "type": "shell",
+      "args": [],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
